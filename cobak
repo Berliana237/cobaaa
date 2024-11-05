@@ -1,0 +1,7 @@
+def balikkata(s):
+    if len(s) < 2:  #len artinya panjang tapi python hanya menerima len
+        return s
+
+    first, rest = s[0], s[1:]
+    return balikkata(rest) + first
+reverse('kasur rusak')
